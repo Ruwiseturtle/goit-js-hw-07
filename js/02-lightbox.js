@@ -22,7 +22,7 @@ function createImagesMarkup(galleryItems) {
 imagesContainer.insertAdjacentHTML('beforeend', imagesMarkup);
 
 
-let gallery = new SimpleLightbox(".gallery a", {
+const gallery = new SimpleLightbox(".gallery a", {
   caption: true,
   captionsData: "alt",
   captionDelay: 250,
